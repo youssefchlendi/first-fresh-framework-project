@@ -13,7 +13,7 @@ export default function Home() {
       />
       <p class={tw`my-6`}>
         Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh. updated at{""}
+        file, and refresh. deployed now.
       </p>
       <Counter start={3} />
     </div>
