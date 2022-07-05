@@ -12,9 +12,8 @@ export default function Home() {
         alt="the fresh logo: a sliced lemon dripping with juice"
       />
       <p class={tw`my-6`}>
-        Welcome to `fresh`. Try update this message in the ./routes/index.tsx
-        file, and refresh. deployed now.
-      </p>
+        Welcome to `fresh`. This framework is completly worthless
+        there's no need to try it      </p>
       <Counter start={3} />
     </div>
   );
