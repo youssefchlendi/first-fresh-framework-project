@@ -24,10 +24,9 @@ export default function Page({ data }: PageProps<Data>) {
   return (
     <div>
       <form>
-        <input  type="text" name="q" value={query} />
+        <input type="text" name="q" value={query} />
         <button type="submit">Search</button>
       </form>
-      <h1>query {query}</h1>
       <ul>
         {results.map((name) => <li key={name}>{name}</li>)}
       </ul>
